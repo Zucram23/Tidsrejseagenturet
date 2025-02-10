@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane fx:controller="com.example.tidsagenturet.Controllers.TimeTravelController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button fx:id="customerAdminButton" layoutX="17.0" layoutY="30.0" mnemonicParsing="false" onAction="#customerAdminButton" prefHeight="65.0" prefWidth="342.0" text="Customer administration"/>
+        <Button fx:id="timetravelMachinesButton" layoutX="17.0" layoutY="130.0" mnemonicParsing="false" onAction="#timeTravelMachinesButton" prefHeight="65.0" prefWidth="342.0" text="Time Travel Machines"/>
+        <Button fx:id="timePeriodsButton" layoutX="17.0" layoutY="230.0" mnemonicParsing="false" onAction="#timePeriodsButton" prefHeight="65.0" prefWidth="342.0" text="Time Periods"/>
+        <Button fx:id="bookingButton" layoutX="17.0" layoutY="330.0" mnemonicParsing="false" onAction="#BookingButton" prefHeight="65.0" prefWidth="342.0" text="Booking"/>
+    </children>
+</AnchorPane>

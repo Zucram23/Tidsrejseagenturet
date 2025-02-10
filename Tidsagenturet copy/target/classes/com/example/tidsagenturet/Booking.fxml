@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.tidsagenturet.Controllers.BookingController" prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label fx:id="bookingLabel" text="BOOKING"/>
+        <ListView fx:id="machineListView"/>
+        <ListView fx:id="timePeriodListview"/>
+        <ListView fx:id="guideListView"/>
+        <Label fx:id="machineLabel" text="Choose time-machine"/>
+        <Label fx:id="timePeriodLabel" text="Choose time-period"/>
+        <Label fx:id="guideLabel" text="Choose guide"/>
+        <Button fx:id="createBookingButton" onAction="#createBooking" text="Create Booking"/>
+
+        <Button fx:id="menuButton" onAction="#backToMenu" text="Menu"/>
+        <Label fx:id="bookingDetailsLabel"/>
+    </children>
+</AnchorPane>
